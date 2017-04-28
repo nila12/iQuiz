@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DB465481EB3CC5F002FC8B0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB465471EB3CC5F002FC8B0 /* TableViewController.swift */; };
 		9DFB1B301EB2BCCD001AEA50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB1B2F1EB2BCCD001AEA50 /* AppDelegate.swift */; };
 		9DFB1B321EB2BCCD001AEA50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB1B311EB2BCCD001AEA50 /* ViewController.swift */; };
 		9DFB1B351EB2BCCD001AEA50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFB1B331EB2BCCD001AEA50 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9DB465471EB3CC5F002FC8B0 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		9DFB1B2C1EB2BCCD001AEA50 /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFB1B2F1EB2BCCD001AEA50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DFB1B311EB2BCCD001AEA50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				9DFB1B2F1EB2BCCD001AEA50 /* AppDelegate.swift */,
 				9DFB1B311EB2BCCD001AEA50 /* ViewController.swift */,
 				9DFB1B331EB2BCCD001AEA50 /* Main.storyboard */,
+				9DB465471EB3CC5F002FC8B0 /* TableViewController.swift */,
 				9DFB1B361EB2BCCD001AEA50 /* Assets.xcassets */,
 				9DFB1B381EB2BCCD001AEA50 /* LaunchScreen.storyboard */,
 				9DFB1B3B1EB2BCCD001AEA50 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DFB1B321EB2BCCD001AEA50 /* ViewController.swift in Sources */,
+				9DB465481EB3CC5F002FC8B0 /* TableViewController.swift in Sources */,
 				9DFB1B301EB2BCCD001AEA50 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +511,7 @@
 				9DFB1B561EB2BCCD001AEA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DFB1B571EB2BCCD001AEA50 /* Build configuration list for PBXNativeTarget "iQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				9DFB1B591EB2BCCD001AEA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DFB1B5A1EB2BCCD001AEA50 /* Build configuration list for PBXNativeTarget "iQuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				9DFB1B5C1EB2BCCD001AEA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
