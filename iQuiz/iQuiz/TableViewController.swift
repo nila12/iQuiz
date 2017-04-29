@@ -9,8 +9,20 @@
 import UIKit
 
 class TableViewController: UITableViewController {
-
-  //http://www.techotopia.com/index.php/Using_Storyboards_and_Swift_to_Build_Dynamic_TableViews_with_Prototype_Table_View_Cells
+    
+    @IBAction func SettingsPressed(_ sender: UIButton) {
+        let alert = UIAlertController(title: "Settings", message: "Settings go here", preferredStyle: UIAlertControllerStyle.alert)
+        
+        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+            //print("Handle Ok logic here")
+        }))
+        
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { (action: UIAlertAction!) in
+            //print("Handle Cancel Logic here")
+        }))
+        
+        present(alert, animated: true, completion: nil)
+    }
     
     var images = [String]()
     var subjects = [String]()

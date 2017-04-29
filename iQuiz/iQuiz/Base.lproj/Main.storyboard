@@ -73,6 +73,9 @@
                                         <rect key="frame" x="16" y="7" width="57" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Settings"/>
+                                        <connections>
+                                            <action selector="SettingsPressed:" destination="SC0-5v-qDx" eventType="touchUpInside" id="0A1-Pw-69v"/>
+                                        </connections>
                                     </button>
                                 </barButtonItem>
                             </items>
