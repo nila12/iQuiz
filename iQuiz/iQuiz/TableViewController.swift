@@ -66,6 +66,8 @@ class TableViewController: UITableViewController {
         cell.mathlabel.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)
         cell.mathlabel.text = subjects[row]
         cell.mathimg.image = UIImage(named: images[row])
+        cell.mathdesclabel.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)
+        cell.mathdesclabel.text = descrips[row]
 
         // Configure the cell...
      
@@ -73,8 +75,6 @@ class TableViewController: UITableViewController {
             // an index value indicating the row for which a cell object is required
      
         // this method is supposed to return an instance of the tableviewcell class and extract correct subject and img file names from the data arrays based on the index value passed through to the method
-     
-     
 
         return cell
     }

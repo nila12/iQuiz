@@ -12,7 +12,7 @@ class TableViewCell: UITableViewCell {
 
     @IBOutlet weak var mathimg: UIImageView!
     @IBOutlet weak var mathlabel: UILabel!
-    
+    @IBOutlet weak var mathdesclabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
