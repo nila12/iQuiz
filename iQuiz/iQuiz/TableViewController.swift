@@ -12,8 +12,26 @@ class TableViewController: UITableViewController {
 
   //http://www.techotopia.com/index.php/Using_Storyboards_and_Swift_to_Build_Dynamic_TableViews_with_Prototype_Table_View_Cells
     
+    var images = [String]()
+    var subjects = [String]()
+    var descrips = [String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        images = ["mathematics.jpg",
+                  "marvelicon.png",
+                  "scienceicon.jpeg"]
+        
+        subjects = ["Mathematics",
+                    "Marvel Super Heroes",
+                    "Science"]
+        
+        descrips = ["some math descrip",
+                    "some marvel thing",
+                    "some damn science thing"]
+        
+        tableView.estimatedRowHeight = 50
         
         //firstCellContent.subviews[0].
 
@@ -33,25 +51,34 @@ class TableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        
-        
-        return 0
+        return subjects.count
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = self.tableView.dequeueReusableCell(withIdentifier: "mathcell", for: indexPath) as! TableViewCell
+        
+        let row = indexPath.row
+        cell.mathlabel.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)
+        cell.mathlabel.text = subjects[row]
+        cell.mathimg.image = UIImage(named: images[row])
 
         // Configure the cell...
+     
+        // each time the table VC needs a new cell to display, it will call this method and pass through
+            // an index value indicating the row for which a cell object is required
+     
+        // this method is supposed to return an instance of the tableviewcell class and extract correct subject and img file names from the data arrays based on the index value passed through to the method
+     
+     
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
