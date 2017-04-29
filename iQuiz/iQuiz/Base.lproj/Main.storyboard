@@ -64,12 +64,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <toolbar key="tableHeaderView" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="FIW-hu-MZK">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <items>
+                                <barButtonItem style="plain" id="puP-M2-57r">
+                                    <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="k9H-jF-HwD">
+                                        <rect key="frame" x="16" y="7" width="57" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Settings"/>
+                                    </button>
+                                </barButtonItem>
+                            </items>
+                        </toolbar>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="math" selectionStyle="default" indentationWidth="10" reuseIdentifier="mathcell" rowHeight="129" id="70K-yd-FlT" customClass="TableViewCell" customModule="iQuiz" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="129"/>
+                                <rect key="frame" x="0.0" y="72" width="375" height="129"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="mathcell" tableViewCell="70K-yd-FlT" id="ghN-65-K8P" customClass="TableViewCell" customModule="iQuiz" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="129"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="128.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QK0-xx-s2j">
