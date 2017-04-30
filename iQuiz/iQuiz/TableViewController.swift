@@ -40,8 +40,8 @@ class TableViewController: UITableViewController {
                     "Science"]
         
         descrips = ["some math descrip",
-                    "some marvel thing",
-                    "some damn science thing"]
+                    "some marvel descrip",
+                    "some science descrip"]
         
         tableView.estimatedRowHeight = 50
         
