@@ -13,7 +13,7 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var mathimg: UIImageView!
     @IBOutlet weak var mathlabel: UILabel!
     @IBOutlet weak var mathdesclabel: UILabel!
-    
+    // http://www.techotopia.com/index.php/Implementing_iOS_8_TableView_Navigation_using_Storyboards_in_Xcode_6_and_Swift
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
